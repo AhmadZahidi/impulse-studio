@@ -1,0 +1,7 @@
+{
+  "name": "impulse-studio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
