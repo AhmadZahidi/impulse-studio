@@ -1,5 +1,3 @@
-import { Redirect, Route } from "react-router-dom";
-
 import {
   IonIcon,
   IonLabel,
@@ -8,18 +6,18 @@ import {
   IonTabButton,
   IonTabs,
 } from "@ionic/react";
-import { chatbox, heart, home, people } from "ionicons/icons";
-import React from "react";
-import AboutUs from "./AboutUs";
-import FitnessCalc from "./FitnessCalc";
-import HealthAdvice from "./HealthAdvice";
-import MainPage from "./MainPage";
+import { Redirect, Route } from "react-router-dom";
+import AboutUs from "../AboutUs";
+import FitnessCalc from "../FitnessCalc";
+import HealthAdvice from "../HealthAdvice";
+import MainPage from "../MainPage";
+import { home, chatbox, heart, people } from "ionicons/icons";
 
-const TabBarNav = () => {
+const IonTabsNavigation = () => {
   return (
     <>
       <IonTabs>
-        <IonRouterOutlet>
+        <IonRouterOutlet id="main">
           <Route exact path="/MainPage">
             <MainPage />
           </Route>
@@ -59,4 +57,4 @@ const TabBarNav = () => {
   );
 };
 
-export default TabBarNav;
+export default IonTabsNavigation;

@@ -1,45 +1,20 @@
-import react from "react";
-
 import {
-  IonBadge,
   IonButton,
   IonButtons,
-  IonCol,
   IonContent,
-  IonFooter,
-  IonGrid,
   IonHeader,
-  IonIcon,
   IonItem,
   IonLabel,
   IonList,
-  IonMenu,
   IonMenuButton,
   IonPage,
-  IonRouterOutlet,
-  IonRow,
   IonSelect,
   IonSelectOption,
-  IonTabBar,
-  IonTabButton,
-  IonTabs,
   IonTitle,
   IonToolbar,
   useIonAlert,
 } from "@ionic/react";
 import React, { useState } from "react";
-import {
-  home,
-  heart,
-  people,
-  calendar,
-  personCircle,
-  map,
-  informationCircle,
-} from "ionicons/icons";
-import { IonReactRouter } from "@ionic/react-router";
-import IonMenuSetting from "./IonMenuSetting";
-import TabBarNav from "./TabBarNav";
 
 const MainPage: React.FC = () => {
   const [presentAlert] = useIonAlert();

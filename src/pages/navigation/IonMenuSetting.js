@@ -1,40 +1,14 @@
-import { Redirect, Route } from "react-router-dom";
-
 import {
   IonButton,
   IonContent,
   IonHeader,
   IonItem,
-  IonLabel,
   IonList,
   IonMenu,
-  IonNav,
-  IonNavLink,
   IonTitle,
   IonToolbar,
-  IonRouterOutlet,
-  IonTabs,
-  IonTabBar,
-  IonTabButton,
-  IonIcon,
   IonMenuToggle,
 } from "@ionic/react";
-import React from "react";
-import MainPage from "./MainPage";
-import { IonReactRouter } from "@ionic/react-router";
-import HealthAdvice from "./HealthAdvice";
-import FitnessCalc from "./FitnessCalc";
-import AboutUs from "./AboutUs";
-import {
-  triangle,
-  images,
-  square,
-  home,
-  chatbox,
-  heart,
-  people,
-  settings,
-} from "ionicons/icons";
 
 const IonMenuSetting = () => {
   return (

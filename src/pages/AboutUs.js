@@ -1,18 +1,12 @@
 import {
-  IonBackButton,
-  IonButton,
   IonButtons,
   IonContent,
   IonHeader,
   IonMenuButton,
-  IonNavLink,
   IonPage,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import React from "react";
-import IonMenuSetting from "./IonMenuSetting";
-import MainPage from "./MainPage";
 
 const AboutUs = () => {
   return (

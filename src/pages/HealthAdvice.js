@@ -7,8 +7,6 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import React from "react";
-import IonMenuSetting from "./IonMenuSetting";
 
 const HealthAdvice = () => {
   return (
