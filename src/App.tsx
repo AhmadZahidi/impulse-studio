@@ -29,8 +29,8 @@ const App: React.FC = () => (
   <IonApp>
     {/* Bottom nav */}
     <IonReactRouter>
-      <IonMenuSetting />
       <IonTabsNavigation />
+      <IonMenuSetting />
     </IonReactRouter>
   </IonApp>
 );

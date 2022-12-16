@@ -10,7 +10,7 @@ import { Redirect, Route } from "react-router-dom";
 import AboutUs from "../AboutUs";
 import FitnessCalc from "../FitnessCalc";
 import HealthAdvice from "../HealthAdvice";
-import MainPage from "../MainPage";
+import Home from "../Home";
 import { home, chatbox, heart, people } from "ionicons/icons";
 
 const IonTabsNavigation = () => {
@@ -18,8 +18,8 @@ const IonTabsNavigation = () => {
     <>
       <IonTabs>
         <IonRouterOutlet id="main">
-          <Route exact path="/MainPage">
-            <MainPage />
+          <Route exact path="/Home">
+            <Home />
           </Route>
           <Route exact path="/HealthAdvice">
             <HealthAdvice />
@@ -31,11 +31,11 @@ const IonTabsNavigation = () => {
             <AboutUs />
           </Route>
           <Route exact path="/">
-            <Redirect to="/MainPage" />
+            <Redirect to="/Home" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="MainPage" href="/MainPage">
+          <IonTabButton tab="Home" href="/Home">
             <IonIcon icon={home} />
             <IonLabel>Home</IonLabel>
           </IonTabButton>

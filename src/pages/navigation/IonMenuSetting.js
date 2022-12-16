@@ -23,7 +23,7 @@ const IonMenuSetting = () => {
           <IonList lines="full">
             <IonItem>
               <IonMenuToggle>
-                <IonButton fill="clear" routerLink="/MainPage">
+                <IonButton fill="clear" routerLink="/Home">
                   Home
                 </IonButton>
               </IonMenuToggle>
